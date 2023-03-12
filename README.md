@@ -21,3 +21,13 @@ files_and_columns = {
     "file3.csv": ["column5", "column6"],
 }
 ```
+
+This dictionary specifies that the script should look for CSV files in the directory path/to/directory and select the columns column1 and column2 from file1.csv, the columns column3 and column4 from file2.csv, and the columns column5 and column6 from file3.csv. You can customize this dictionary to select the columns and files that you want to analyze.
+
+After running the script, it will create a new CSV file called output.csv in the same directory as the input files. This file will contain the unique data from the selected columns, with the count of each value in front of the column name.
+
+<h3>License</h3>
+This script is licensed under the MIT License. You are free to use, modify, and distribute this script for any purpose, with or without attribution.
+
+
+
