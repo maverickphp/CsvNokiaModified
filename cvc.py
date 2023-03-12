@@ -2,9 +2,11 @@ import csv
 import os
 
 # specify the directory containing the CSV files and the columns to select
-directory = "C:/Users/Administrator/Desktop/CodewithMv/CvC"
+directory = "path/to/directory"
 files_and_columns = {
-    "lvh.csv": ["age", "pos"],
+    "file1.csv": ["column1", "column2"],
+    "file2.csv": ["column3", "column4"],
+    "file3.csv": ["column5", "column6"],
 }
 
 # create a dictionary to hold the unique data for each column and its count
