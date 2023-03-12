@@ -10,3 +10,14 @@ To use this script, you should have Python 3 installed on your system. You can t
 ```sh
 python unique_csv_data.py
 ```
+
+Before running the script, you need to specify the directory containing the CSV files and the columns to select in a dictionary called files_and_columns within the script. For example:
+
+```sh
+directory = "path/to/directory"
+files_and_columns = {
+    "file1.csv": ["column1", "column2"],
+    "file2.csv": ["column3", "column4"],
+    "file3.csv": ["column5", "column6"],
+}
+```
