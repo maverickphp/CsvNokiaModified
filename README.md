@@ -1,4 +1,4 @@
-# CsvColumnFilter ( Unique and Repeatead Count)
+# CsvColumnFilter ( Unique and Repeated Count)
 
 <h3>Description</h3>
 
